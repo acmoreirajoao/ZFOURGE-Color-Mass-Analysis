@@ -1,0 +1,7 @@
+Data separated by folders of different redshift ranges
+Within each folder, data from each region will be available
+Sample codes:
+1 - z is less than 1
+2 - z between 1 and 2
+3 - z between 2 and 3
+4 - z greater than 3

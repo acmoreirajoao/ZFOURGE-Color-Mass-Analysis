@@ -1,0 +1,67 @@
+#
+#   VizieR Astronomical Server vizier.cds.unistra.fr
+#    Date: 2023-03-30T20:02:28 [V7.296]
+#   In case of problem, please report to:	cds-question@unistra.fr
+#
+#
+#Coosys	J2000:	eq_FK5 J2000
+#INFO	version=7.296	
+#INFO	-ref=VIZ6425cb093e6b74	
+#INFO	-out.max=unlimited	
+#INFO	queryParameters=24	
+#-oc.form=dec
+#-out.max=unlimited
+#-out.add=_r
+#-out.add=_RAJ,_DEJ
+#-sort=_r
+#-order=I
+#-out.src=J/ApJ/830/51/zf_cdfs,J/ApJ/830/51/cdfsz,J/ApJ/830/51/cdfssfr
+#-nav=cat:J/ApJ/830/51&tab:{J/ApJ/830/51/zf_cdfs}&tab:{J/ApJ/830/51/cdfsz}&tab:{J/ApJ/830/51/cdfssfr}&key:source=zfourge&HTTPPRM:&&-ref=VIZ6425cb093e6b74&-out.max=50&-out.form=HTML Table&-out.add=_r&-out.add=_RAJ,_DEJ&-sort=_r&-oc.form=sexa&-c.eq=J2000&-c.r=  2&-c.u=arcmin&-c.geom=r&-out.orig=standard&-order=I&-joincol=Seq&-outjoin={J/ApJ/830/51/cdfssfr}.{Seq}&-out=FR&-out=e_FR&-out=FU&-out=e_FU&-ignore=Simbad=*&Simbad=Simbad&-out=zp&zp=>=3&-out=lmass&-file=.&-meta.ucd=2&-meta=1&-meta.foot=1&-usenav=1&-bmark=POST&-out.src=J/ApJ/830/51/zf_cdfs,J/ApJ/830/51/cdfsz,J/ApJ/830/51/cdfssfr
+#-c.eq=J2000
+#-c.r=  2
+#-c.u=arcmin
+#-c.geom=r
+#-source=J/ApJ/830/51/zf_cdfs J/ApJ/830/51/cdfsz J/ApJ/830/51/cdfssfr
+#-out.orig=standard
+#-joincol=Seq
+#-joincol={J/ApJ/830/51/cdfssfr}.{Seq}
+#-outjoin={J/ApJ/830/51/cdfssfr}.{Seq}
+#-out=FR
+#-out=e_FR
+#-out=FU
+#-out=e_FU
+#-out=zp
+#zp=>=3
+#-out=lmass
+#
+
+#RESOURCE=join
+#Name: #Join
+#Title:  Join tables J/ApJ/830/51/zf_cdfs,J/ApJ/830/51/cdfsz,J/ApJ/830/51/cdfssfr
+#
+#Table	J_ApJ_830_51_zf_cdfs_J_ApJ_830_51_cdfsz_J_ApJ_830_51_cdfssfr:
+#Name: J/ApJ/830/51/zf_cdfs,J/ApJ/830/51/cdfsz,J/ApJ/830/51/cdfssfr
+#Title:
+#Column	_RAJ20001	(F13.9)	Right ascension (FK5, Equinox=J2000.0) (computed by VizieR, not part of the original data. The format may include more digits than the original data because of internal accuracy requirements in VizieR and across other CDS services)	[ucd=pos.eq.ra]
+#Column	_DEJ20001	(F13.9)	Declination (FK5, Equinox=J2000.0) (computed by VizieR, not part of the original data. The format may include more digits than the original data because of internal accuracy requirements in VizieR and across other CDS services)	[ucd=pos.eq.dec]
+#Column	FR1	(D12.5)	[-0.5/5588]? Aperture flux in VLT/VIMOS R-band, corrected to total (f_R) (1)	[ucd=phot.flux.density;em.opt.R]
+#Column	e_FR1	(F10.5)	[0/279.4]? FR uncertainty (e_R)	[ucd=stat.error]
+#Column	FU1	(D12.5)	[-1/1869]? Aperture flux in VLT/VIMOS U-band, corrected to total (f_U) (1)	[ucd=phot.flux.density;em.opt.U]
+#Column	e_FU1	(F9.5)	[0/0.7]? FU uncertainty (e_U)	[ucd=stat.error]
+#Column	zp2	(F7.3)	[0.005/10]? Best-fit redshift after applying the prior	[ucd=src.redshift;pos.heliocentric]
+#Column	Seq3	(I5)	[1/30911] Running sequence number [NULL integer written as an empty string]	[ucd=meta.id;meta.main]
+#Column	lmass3	(F6.2)	[2.5/14.4]? Log of mass	[ucd=phys.mass]
+
+
+
+deg	deg	0.3631uJy	0.3631uJy	0.3631uJy	0.3631uJy	 	 	[Msun]
+-------------	-------------	------------	----------	------------	---------	-------	-----	------
+
+
+
+
+      </CSV>
+    </DATA>
+  </TABLE>
+</RESOURCE>
+</VOTABLE>
